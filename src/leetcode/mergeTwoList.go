@@ -9,7 +9,7 @@ package leetcode
  *     Next *ListNode
  * }
  */
- func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
+func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
     dummy := &ListNode{Val:0,Next:nil}
     pre := dummy
     p1,p2 := l1,l2
