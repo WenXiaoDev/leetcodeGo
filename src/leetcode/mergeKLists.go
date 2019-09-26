@@ -8,7 +8,7 @@ package leetcode
  * }
  */
  // 1.两两合并，共合并k-1次
- // 时间复杂度 K^2*Lmax
+ // 时间复杂度 K^2*Lmax = K*N N:列表的总长度
  func mergeTwoList(l1,l2 *ListNode) *ListNode {
     dummy := &ListNode{Val:0,Next:nil}
     pre := dummy
